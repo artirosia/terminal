@@ -241,7 +241,7 @@ button {
   bottom: 90%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 750px) {
   .header {
     max-width: 308px;
     max-height: 47px;
