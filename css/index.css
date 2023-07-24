@@ -1,0 +1,306 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+}
+.header {
+  color: rgba(69, 32, 171, 1);
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.2px;
+  margin: 44px 0px 86px 0px;
+}
+.container {
+}
+.header_row {
+}
+.header_logo {
+}
+.content {
+}
+.text_field {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 60px 0px;
+}
+.text_field_box {
+  width: 500px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgba(17, 17, 17, 1);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  position: relative;
+}
+input::placeholder {
+  width: 209px;
+  height: 24.64px;
+  flex-shrink: 0;
+  color: rgba(17, 17, 17, 1);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  margin-left: 21;
+  opacity: 0.4000000059604645;
+}
+.text_field_button {
+  display: inline-flex;
+  height: 38.08px;
+  padding: 0px 12px 5px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  position: absolute;
+  align-self: center;
+  margin-left: 385px;
+  transition: 0.4s;
+}
+.text_field_button:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  margin: 0px 0px 60px 0px;
+}
+.dictionary_row {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  position: relative;
+  border-bottom-left-radius: 8px;
+}
+
+.dictionary_russian {
+  width: 250px;
+  color: #111;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.54px;
+  background: #f0f0f0;
+  border-right: 2px solid #111;
+  border-bottom: 1px solid #111;
+}
+.dictionary_row:last-child .dictionary_russian {
+  border-radius: 0px 0px 0px 8px;
+  border-bottom: 0px solid #111;
+}
+.dictionary_row:first-child .dictionary_russian {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.dictionary_row:last-child .dictionary_english_box {
+  border-radius: 0px 0px 8px 0px;
+  border-bottom: 0px solid #111;
+}
+.dictionary_row:first-child .dictionary_english_box {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.index {
+  color: #111;
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.7px;
+  margin-left: 12px;
+  margin-right: 28px;
+}
+.dictionary_english_box {
+  display: flex;
+  background: rgba(0, 0, 0, 0.20000000149011612);
+  border-bottom: 1px solid #111;
+}
+.dictionary_english {
+  width: 250px;
+  color: #111;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.54px;
+  position: relative;
+  left: 28px;
+  position: relative;
+}
+
+.clear_image {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  position: absolute;
+  align-self: center;
+  margin-left: 221px;
+  transition: 0.4s;
+}
+.clear_image:hover {
+  transform: scale(1.5);
+}
+
+.clear_all {
+  margin-bottom: 166.5px;
+  transition: 0.4s;
+}
+.clear_all:hover {
+  transform: scale(1.1);
+}
+.clear_all_button {
+  display: flex;
+  padding: 6px 10px 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #adadad;
+  margin: auto;
+}
+button {
+  border: 0;
+}
+.clear_all_text {
+  color: #0f0f0f;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+.clear_all_image {
+  width: 24px;
+  height: 24px;
+}
+
+.full_russian {
+  display: none;
+  width: 35%;
+  padding: 8px 16px 10px 16px;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin: -35px 0px 0px 34px;
+
+  color: #111;
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.48px;
+  bottom: 90%;
+}
+.full_english {
+  display: none;
+  width: 35%;
+  padding: 8px 16px 10px 16px;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin: -35px 0px 0px 12px;
+
+  color: #111;
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.48px;
+  bottom: 90%;
+}
+
+@media (max-width: 360px) {
+  .header {
+    max-width: 308px;
+    max-height: 47px;
+    color: #4520ab;
+    text-align: center;
+    font-family: IBM Plex Mono;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.52px;
+    margin: 20px 0px 76px 0px;
+  }
+  .text_field_box {
+    max-width: 328px;
+  }
+  input::placeholder {
+    width: 209px;
+    height: 24.64px;
+    flex-shrink: 0;
+    color: var(--bg-black, #111);
+    font-family: IBM Plex Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    padding-left: 21px;
+  }
+
+  .text_field_button {
+    height: 38px;
+    padding: 0px 12px 5px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #111;
+    margin-left: 210px;
+  }
+  .text_field_button:hover {
+    transform: scale(1);
+  }
+  .dictionary_russian {
+    max-width: 164px;
+  }
+  .dictionary_english {
+    max-width: 164px;
+  }
+  .clear_image {
+    width: 24px;
+    height: 24px;
+    margin-left: 135px;
+  }
+  .clear_image:hover {
+    transform: scale(1);
+  }
+  .clear_all:hover {
+    transform: scale(1);
+  }
+}
